@@ -5,30 +5,46 @@ header-includes:
   - \pagestyle{fancy}
   - \fancyhf{}
   - \fancyhead[R]{-\,\thepage\,-}
+  - \usepackage{setspace}
 ---
 
+\large
 
 \thispagestyle{empty}
 \noindent\begin{minipage}{\textwidth}
+\singlespacing
 \raggedleft
-{{Your Name}}
+Michael Levy
 
-{{Month Year}}
+September 2017
 
-{{Graduate Group or Dept}}
+Ecology
 \end{minipage}
 
 \vspace*{\baselineskip}
 
 \centerline{\textbf{
-{{Title In Title Case}}
+Sustainable Agriculture Knowledge Networks and Mental Models
 }}
 
-\vspace*{\baselineskip}
+<!-- \vspace*{\baselineskip} -->
 
-\centerline{\textbf{\underline{Abstract}}}
+<!-- \centerline{\textbf{\underline{Abstract}}} -->
+\doublespacing
 
-{{Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. Abstract text here. With a reference: @harris_occupancy_2011}}
+Agriculture faces a daunting challenge: To feed a growing population in the face of declining natural resources and increasing concern for environmental externalities. At the same time, knowledge demands on producers and other stakeholders are increasing as a function of both technical and regulatory complexity. To facilitate the transition to sustainable agriculture, it is critical to understand what stakeholders' goals are, how they perceive the system to function, and how knowledge moves through the community. In chapter one, we test hypotheses about the prevalence of structures that facilitate diffusion and collective action in three agriculture communication networks in California. For chapters two and three, we elicited mental models of sustainable agriculture from leading thinkers throughout California. In chapter two, we develop a method to examine how systems thinking is embodied in the mental models, and we cluster the models into three modes of systems thinking characterized by increasing level of complexity. In chapter three, we explore the content of the mental models, create a single model that integrates the participants' understanding, and test hypotheses about how goals and means are structured in mental models.
+
+## Chapter 1
+
+Regional agroecological systems are examples of complex adaptive systems, where sustainability is promoted by social networks that facilitate information sharing, cooperation, and connectivity among specialized components of the system. Much of the existing literature on social capital fails to recognize how networks support multiple social processes. Our paper overcomes this problem by analyzing how the social networks of winegrape growers exhibit structural features related to multiple social processes: ties to central actors that build bridging social capital and facilitate the diffusion of innovations, ties that close triangles and build bonding social capital to solve cooperation dilemmas, and ties to individuals that span community boundaries to connect specialized components of the system. We use survey data to measure the communication networks of growers in three viticulture regions in California. A combination of descriptive statistics, conditional uniform random graph tests, and exponential random graph models provides empirical support for our hypotheses. The findings reflect regional differences in geography and institutional histories, which may influence the capacity to respond to regional environmental change.
+
+## Chapter 2
+
+Progress in sustainability science is hampered by definitional and normative debates over concepts like sustainable agriculture and their application to complex systems. Systems thinking has been advocated as a model for improving understanding and management of complex systems, but theory and methods to analyze systems thinking remain underdeveloped. We develop a new way of assessing systems thinking by applying social network tools to the analysis of mental models. We examine the cognitive maps of 148 thought leaders in sustainable agriculture in California and examine the extent to which each map captures six fundamental causal patterns. We find that it is difficult for people to think about the more complex forms of causality that are associated with systems thinking. Our findings have important implications for individual and collective decision-making about sustainable agriculture and other policy debates featuring ill-defined, normative concepts applied to complex systems. 
+
+## Chapter 3
+
+Sustainable agriculture means different things to different people. It connotes multiple, often nebulous goals, each of which could potentially be facilitated by various means, but neither the goals nor the means to achieve them are widely agreed upon. Furthermore, it is a profoundly interdisciplinary topic, spanning physical, biological, and social sciences, making it difficult for any individual to achieve comprehensive understanding. To bring light to what sustainable agriculture means to experts, we elicited the mental models of 148 experts from a variety of professions and regions of California. We use semantic analysis to translate the models into a single set of concepts, which allows us to aggregate the models into a single model representing the combined understanding of the experts. We compare which concepts are emphasized by different regions in California, which align with regional challenges. We also analyze the centrality of the various concepts involved in sustainable agriculture and whether they are more drivers or results of the system. Central concepts tend to be results that are shared by many experts, while peripheral concepts tend to be drivers that are more idiosyncratic. This structural analysis suggests that goals (results) serve as cognitive access points and can be used to initiate dialog among stakeholder groups, while strategies (drivers) to achieve them are likely to be more contentious. The aggregate model can provide guidance to policy makers looking to understand stakeholders' priorities and how to accomplish goals, and we provide guidance for those wishing to do so.
 
 \vspace*{\baselineskip}
 
