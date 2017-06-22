@@ -1,15 +1,16 @@
 ---
 title: "Supplement to Semantic and Network Analysis of Mental Models of Sustainable Agriculture"
 author: "Michael Levy, Mark Lubell, Neil McRoberts"
-date: "2017-06-19"
+date: "2017-06-22"
 documentclass: article
 ## csl: pnas.csl
 bibliography: ../structure/MentalModels.bib
 output:
   md_document:
-    fig_caption: yes        
-    includes:  
-      in_header: figPos.tex
+    varient: markdown
+header-includes: 
+  - \usepackage{caption}
+  - \usepackage{float}
 ---
 
 
@@ -18,18 +19,17 @@ output:
 
 ## Number of Concepts per Cluster
 
-<img src="figure/concepts per cluster-1.png" title="Number of original concepts consolidated into each cluster, at each level of consolidation." alt="Number of original concepts consolidated into each cluster, at each level of consolidation." style="display: block; margin: auto;" />
+![Number of original concepts consolidated into each cluster, at each level of consolidation.](figure/concepts per cluster-1.png)
 
 
 ## What Concepts are Emphasized at the State Level?
 
-<img src="figure/state concepts plot-1.png" title="Centrality and driverness of concepts in statewide aggregate cognitive map at 40-concept consolidation level." alt="Centrality and driverness of concepts in statewide aggregate cognitive map at 40-concept consolidation level." style="display: block; margin: auto;" />
+![Centrality and driverness of concepts in statewide aggregate cognitive map at 40-concept consolidation level.](figure/state concepts plot-1.png)
 
 ## Regional Analyses
 
-### Centrality vs Popularity
 
-
+![Regional maps. Concepts' average centrality in the maps in which they appear versus the number of maps in which they appear. Colors indicate concept driverness as in Figure 1.](figure/number maps plot-1.png)
 
 
 \begin{table}[!htbp] \centering 
@@ -55,8 +55,7 @@ R$^{2}$ & 0.589 \\
 \end{table} 
 
 
-### Concept Use Variance
 
-<img src="figure/driverness regression lines-1.png" title="Each line reflects one concept's OLS estimate for the slope of the relationship between the concept's (log-10) centrality and its driverness (0 = pure effect; 1 = pure cause) across regional maps, at various levels of concept consolidation." alt="Each line reflects one concept's OLS estimate for the slope of the relationship between the concept's (log-10) centrality and its driverness (0 = pure effect; 1 = pure cause) across regional maps, at various levels of concept consolidation." style="display: block; margin: auto;" />
+![Each line reflects one concept's OLS estimate for the slope of the relationship between the concept's (log-10) centrality and its driverness (0 = pure effect; 1 = pure cause) across regional maps, at various levels of concept consolidation.](figure/driverness regression lines-1.png)
 
-<img src="figure/driverness model distributions-1.png" title="Distributions of slope estimates for the OLS regression of a concept's centrality (base-10 logarithm of total degree centrality) versus its driverness ($\in [0, 1]$) in regional maps. Within each level of consolidation, each concept yields one slope estimate, with each map employing the concept forming an observation for the regression. Outlying estimates (outside 1.5 $\times$ the interquartile range beyond the first and third quartiles) are not plotted for visual clarity but are used in determining boxplot positions." alt="Distributions of slope estimates for the OLS regression of a concept's centrality (base-10 logarithm of total degree centrality) versus its driverness ($\in [0, 1]$) in regional maps. Within each level of consolidation, each concept yields one slope estimate, with each map employing the concept forming an observation for the regression. Outlying estimates (outside 1.5 $\times$ the interquartile range beyond the first and third quartiles) are not plotted for visual clarity but are used in determining boxplot positions." style="display: block; margin: auto;" />
+![Distributions of slope estimates for the OLS regression of a concept's centrality (base-10 logarithm of total degree centrality) versus its driverness ($\in [0, 1]$) in regional maps. Within each level of consolidation, each concept yields one slope estimate, with each map employing the concept forming an observation for the regression. Outlying estimates (outside 1.5 $\times$ the interquartile range beyond the first and third quartiles) are not plotted for visual clarity but are used in determining boxplot positions.](figure/driverness model distributions-1.png)
