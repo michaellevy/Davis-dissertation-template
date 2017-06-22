@@ -29,7 +29,7 @@ header-includes:
 ## Regional Analyses
 
 
-![Regional maps. Concepts' average centrality in the maps in which they appear versus the number of maps in which they appear. Colors indicate concept driverness as in Figure 1.](figure/number maps plot-1.png)
+![Regional maps. Concepts' average centrality in the maps in which they appear versus the number of maps in which they appear. Colors indicate concept driverness as in Figure 1.](figure/reg number maps plot-1.png)
 
 
 \begin{table}[!htbp] \centering 
@@ -56,6 +56,6 @@ R$^{2}$ & 0.589 \\
 
 
 
-![Each line reflects one concept's OLS estimate for the slope of the relationship between the concept's (log-10) centrality and its driverness (0 = pure effect; 1 = pure cause) across regional maps, at various levels of concept consolidation.](figure/driverness regression lines-1.png)
+![Each line reflects one concept's OLS estimate for the slope of the relationship between the concept's (log-10) centrality and its driverness (0 = pure effect; 1 = pure cause) across regional maps, at various levels of concept consolidation.](figure/reg driverness regression lines-1.png)
 
-![Distributions of slope estimates for the OLS regression of a concept's centrality (base-10 logarithm of total degree centrality) versus its driverness ($\in [0, 1]$) in regional maps. Within each level of consolidation, each concept yields one slope estimate, with each map employing the concept forming an observation for the regression. Outlying estimates (outside 1.5 $\times$ the interquartile range beyond the first and third quartiles) are not plotted for visual clarity but are used in determining boxplot positions.](figure/driverness model distributions-1.png)
+![Distributions of slope estimates for the OLS regression of a concept's centrality (base-10 logarithm of total degree centrality) versus its driverness ($\in [0, 1]$) in regional maps. Within each level of consolidation, each concept yields one slope estimate, with each map employing the concept forming an observation for the regression. Outlying estimates (outside 1.5 $\times$ the interquartile range beyond the first and third quartiles) are not plotted for visual clarity but are used in determining boxplot positions.](figure/reg driverness model distributions-1.png)
